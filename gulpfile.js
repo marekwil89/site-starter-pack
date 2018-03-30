@@ -7,10 +7,10 @@ const plumber = require('gulp-plumber');
 const cleanCSS = require('gulp-clean-css');
 const browserSync = require('browser-sync').create();
 
-const src_sass = './src/dist/scss/**/*.scss';
-const src_js = './src/dist/js/*.js';
-const dest_css = './src/assets/css';
-const dest_js = './src/assets/js';
+const src_sass = './src/assets/scss/**/*.scss';
+const src_js = './src/assets/js/*.js';
+const dest_css = './src/dist/css';
+const dest_js = './src/dist/js';
 const src_html = './src/**/*.html';
 
 // gulp.task('js', function(){
